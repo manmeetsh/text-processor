@@ -1,0 +1,21 @@
+<!-- index2.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TEXT ANALYZER</title>
+</head>
+<body>
+	<h1>welcome to text analyzer; drop text below</h1>
+	<form action="/analyze" method="get">
+		<textarea name='text' style="margin: 0px; width: 1000px; height: 180px;"></textarea>
+		<br>
+		<input type="checkbox" name="rempuncCheckBox">Remove punctuations<br>
+		<input type="checkbox" name="capCheckBox">Capitalize<br>
+		<input type="checkbox" name="linremCheckBox">Line remove<br>
+		<input type="checkbox" name="spacremCheckBox">Space remove<br>
+		<input type="checkbox" name="charcountCheckBox">Char count<br>
+		<button type='submit'>Analyze It!</button>
+	</form>
+</body>
+</html>
